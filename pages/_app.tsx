@@ -1,8 +1,47 @@
 import "@styles/globals.css";
 import type { AppProps } from "next/app";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Head>
+        <title>
+          Lola Les Lutong Pinoy - A food blog that emphasizes Filipino food.
+        </title>
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/favicon-180x180.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <meta
+          name="description"
+          content="A food blog that emphasizes Filipino food that is affordable and easy to do in daily life."
+        />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4037215281786151"
+          crossOrigin="anonymous"
+        ></script>
+      </Head>
+      <Component {...pageProps} />
+    </>
+  );
 }
 
 export default MyApp;
