@@ -4,10 +4,25 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { FilmIcon } from "@heroicons/react/24/solid";
+import IllustrationHero from "../public/img/illustration-hero.svg";
 
 const Home: NextPage = () => {
   const [isOpen, setOpen] = useState(false);
   const toggleMenu = () => setOpen(!isOpen);
+
+  const keyStr =
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
+
+  const triplet = (e1: number, e2: number, e3: number) =>
+    keyStr.charAt(e1 >> 2) +
+    keyStr.charAt(((e1 & 3) << 4) | (e2 >> 4)) +
+    keyStr.charAt(((e2 & 15) << 2) | (e3 >> 6)) +
+    keyStr.charAt(e3 & 63);
+
+  const rgbDataURL = (r: number, g: number, b: number) =>
+    `data:image/gif;base64,R0lGODlhAQABAPAA${
+      triplet(0, r, g) + triplet(b, 255, 255)
+    }/yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==`;
   return (
     <>
       <nav className="container relative mx-auto py-6 px-6 lg:px-24">
@@ -114,11 +129,13 @@ const Home: NextPage = () => {
             <div className="bg-hero "></div>
 
             <Image
-              src="/img/illustration-hero.svg"
+              src={IllustrationHero}
               alt="hero"
               width={655}
               height={520}
               className="relative z-10 lg:top-24 xl:top-0 rounded-2xl overflow-x-visible"
+              placeholder="blur"
+              blurDataURL={rgbDataURL(230, 230, 250)}
             />
           </div>
         </div>
@@ -165,10 +182,7 @@ const Home: NextPage = () => {
               </picture>
             </Link>
 
-            <Link
-              href="https://www.facebook.com/profile.php?id=100086925855655"
-              passHref
-            >
+            <Link href="https://www.facebook.com/LolaLesLutongPinoy" passHref>
               <picture>
                 <img
                   src="/img/icon-facebook.svg"
