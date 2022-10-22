@@ -10,7 +10,7 @@ const Home: NextPage = () => {
   const toggleMenu = () => setOpen(!isOpen);
   return (
     <>
-      <nav className="container relative mx-auto py-8 px-24">
+      <nav className="container relative mx-auto py-6 px-6 lg:px-24">
         {/* Flex container for nav items */}
         <div className="flex items-center justify-between space-x-20 my-6">
           {/* Logo */}
@@ -19,14 +19,14 @@ const Home: NextPage = () => {
               <img
                 src="/img/lola-les-logo.svg"
                 alt="logo"
-                width={45}
-                height={45}
+                width={60}
+                height={60}
               />
             </picture>
             <h1
               className={`uppercase tracking-widest ${
                 isOpen ? "text-white" : "text-veryDarkBlue"
-              } `}
+              } hidden sm:block`}
             >
               Lola Les Lutong Pinoy
             </h1>
@@ -37,10 +37,10 @@ const Home: NextPage = () => {
             <Link href="/" scroll={false}>
               <a className="tracking-widest hover:text-softRed">Home</a>
             </Link>
-            <Link href="#" scroll={false}>
+            <Link href="/about" scroll={false}>
               <a className="tracking-widest hover:text-softRed">About</a>
             </Link>
-            <Link href="#" scroll={false}>
+            <Link href="/recipes" scroll={false}>
               <a className="tracking-widest hover:text-softRed">Recipes</a>
             </Link>
           </div>
@@ -71,13 +71,13 @@ const Home: NextPage = () => {
           </div>
 
           <div className="w-full py-3 text-center">
-            <Link href="#">
+            <Link href="/about">
               <a className="block hover:text-softRed">About</a>
             </Link>
           </div>
 
           <div className="w-full py-3 text-center">
-            <Link href="#">
+            <Link href="/recipes">
               <a className="block hover:text-softRed">Recipes</a>
             </Link>
           </div>
@@ -87,7 +87,7 @@ const Home: NextPage = () => {
       {/* Hero Section */}
       <section id="hero">
         {/* Container For Image and Content */}
-        <div className="container flex flex-col-reverse mx-auto px-24 py-6 lg:flex-row lg:mb-0">
+        <div className="container flex flex-col-reverse mx-auto py-6 px-6 lg:flex-row lg:px-24 lg:mb-0">
           {/* Content */}
           <div className="flex flex-col space-y-10 lg:mt-16 lg:w-1/2">
             <h1 className="text-3xl font-semibold text-center lg:text-6xl lg:text-left">
@@ -101,7 +101,7 @@ const Home: NextPage = () => {
 
             {/* Buttons Container */}
             <div className="flex items-center justify-center w-full space-x-4 lg:justify-start">
-              <Link href="#">
+              <Link href="/welcome">
                 <a className="p-4 text-sm font-semibold text-veryDarkBlue bg-purple-100 rounded shadow-md border-2 border-purple-100 md:text-base hover:bg-white hover:text-grayishBlue">
                   Start here
                 </a>
@@ -139,20 +139,23 @@ const Home: NextPage = () => {
               />
             </picture>
 
-            <Link href="#" scroll={false}>
+            <Link href="/about" scroll={false}>
               <a className="uppercase hover:text-softRed">About</a>
             </Link>
-            <Link href="#" scroll={false}>
+            <Link href="/recipes" scroll={false}>
               <a className="uppercase hover:text-softRed">Recipes</a>
             </Link>
-            <Link href="#" scroll={false}>
+            <Link href="/contact" scroll={false}>
               <a className="uppercase hover:text-softRed">Contact</a>
             </Link>
           </div>
 
           {/* Social Container */}
           <div className="flex space-x-10">
-            <Link href="#" passHref>
+            <Link
+              href="https://www.youtube.com/channel/UCqkfjJDkUYuayjqku79NJRQ"
+              passHref
+            >
               <picture>
                 <img
                   src="/img/icon-youtube.svg"
@@ -162,7 +165,10 @@ const Home: NextPage = () => {
               </picture>
             </Link>
 
-            <Link href="#" passHref>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100086925855655"
+              passHref
+            >
               <picture>
                 <img
                   src="/img/icon-facebook.svg"
@@ -172,7 +178,7 @@ const Home: NextPage = () => {
               </picture>
             </Link>
 
-            <Link href="#" passHref>
+            <Link href="https://www.instagram.com/lesverdera/" passHref>
               <picture>
                 <img
                   src="/img/icon-instagram.svg"
@@ -182,7 +188,7 @@ const Home: NextPage = () => {
               </picture>
             </Link>
 
-            <Link href="#" passHref>
+            <Link href="https://www.pinterest.ph/lesverdera/" passHref>
               <picture>
                 <img
                   src="/img/icon-pinterest.svg"
