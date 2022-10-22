@@ -32,6 +32,10 @@ function MyApp({ Component, pageProps }: AppProps) {
           content="A food blog that emphasizes Filipino food that is affordable and easy to do in daily life."
         />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          name="p:domain_verify"
+          content="b4023b5db6a28c1c58bc08d4532244a7"
+        />
 
         <script
           async
