@@ -192,7 +192,7 @@ const Home: NextPage = () => {
               </picture>
             </Link>
 
-            <Link href="https://www.instagram.com/lesverdera/" passHref>
+            <Link href="https://www.instagram.com/lolaleslutongpinoy/" passHref>
               <picture>
                 <img
                   src="/img/icon-instagram.svg"
@@ -202,7 +202,7 @@ const Home: NextPage = () => {
               </picture>
             </Link>
 
-            <Link href="https://www.pinterest.ph/lesverdera/" passHref>
+            <Link href="https://www.pinterest.ph/lolaleslutongpinoy/" passHref>
               <picture>
                 <img
                   src="/img/icon-pinterest.svg"
