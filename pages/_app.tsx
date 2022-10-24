@@ -1,3 +1,4 @@
+import Layout from "@components/layout/Layout";
 import "@styles/globals.css";
 import type { AppProps } from "next/app";
 import Head from "next/head";
@@ -43,7 +44,9 @@ function MyApp({ Component, pageProps }: AppProps) {
           crossOrigin="anonymous"
         ></script>
       </Head>
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   );
 }
