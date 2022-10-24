@@ -9,6 +9,7 @@ const RecipeDetail = ({
   recipe,
 }: InferGetStaticPropsType<typeof getStaticProps>) => {
   const opts: YouTubeProps["opts"] = {
+    width: "100%",
     playerVars: {
       autoplay: 0,
     },
@@ -73,12 +74,13 @@ const RecipeDetail = ({
             Subscribe to our youtube channel.
           </h3>
           <p className="max-w-3xl mx-auto leading-9 text-center text-gray-700 mb-24 text-xl">
-            Home cooking Filipino-style Spaghetti with Lola Les. Please watch
-            the video on how to cook Filipino-style Spaghetti that you will
-            love.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
+            et iusto dolorum. Earum omnis consectetur ipsa, ratione maiores
+            dolores in voluptatum explicabo mollitia perspiciatis perferendis,
+            nesciunt, aut vel necessitatibus cum.
           </p>
 
-          <YouTube className="lg:pl-24" videoId="IF_ZGZJanTU" opts={opts} />
+          <YouTube videoId={recipe.youtubeId} opts={opts} />
         </div>
       </section>
     </>

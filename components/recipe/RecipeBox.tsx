@@ -9,28 +9,26 @@ const RecipeBox = ({
 }: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
     <>
-      <div className="card">
-        <div className="h-32 sm:h-48 relative">
-          <Image
-            src={recipe.imagePath}
-            alt="stew"
-            layout="fill"
-            objectFit="cover"
-          />
+      <div className="h-32 sm:h-48 relative">
+        <Image
+          src={recipe.imagePath}
+          alt="stew"
+          layout="fill"
+          objectFit="cover"
+        />
+      </div>
+      <Link href={`/recipes/${recipe.id}`} passHref>
+        <div className="m-4 cursor-pointer">
+          <span className="font-bold">{recipe.title}</span>
+          <span className="block text-gray-500 text-sm truncate ...">
+            {recipe.description}
+          </span>
         </div>
-        <Link href={`/recipes/${recipe.id}`} passHref>
-          <div className="m-4 cursor-pointer">
-            <span className="font-bold">{recipe.title}</span>
-            <span className="block text-gray-500 text-sm truncate ...">
-              {recipe.description}
-            </span>
-          </div>
-        </Link>
-        <div className="badge">
-          <ClockIcon className="w-5 h-5 inline-block" />
+      </Link>
+      <div className="badge">
+        <ClockIcon className="w-5 h-5 inline-block" />
 
-          <span>{recipe.duration}</span>
-        </div>
+        <span>{recipe.duration}</span>
       </div>
     </>
   );

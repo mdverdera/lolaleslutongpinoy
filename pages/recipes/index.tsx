@@ -13,6 +13,7 @@ type RecipeModel = {
   duration: string;
   imagePath: string;
   youtubeLink: string;
+  youtubeId: string;
 };
 
 const Recipes = ({
@@ -56,17 +57,18 @@ const Recipes = ({
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
             natus necessitatibus numquam cupiditate expedita voluptatum a.
           </p>
-
-          <div className="mt-8 grid md:grid-cols-3 gap-10">
-            {/* Recipe Box */}
-            {recipesData.map((recipe: RecipeModel) => {
-              return (
-                <div key={recipe.id}>
-                  {/* cards go here */}
-                  <RecipeBox recipe={recipe} />
-                </div>
-              );
-            })}
+          <div>
+            <div className="mt-8 grid md:grid-cols-3 gap-10">
+              {/* Recipe Box */}
+              {recipesData.map((recipe: RecipeModel) => {
+                return (
+                  <div className="card" key={recipe.id}>
+                    {/* cards go here */}
+                    <RecipeBox recipe={recipe} />
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
       </section>
