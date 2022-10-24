@@ -18,6 +18,11 @@ module.exports = {
         softRed: "hsl(0, 94%, 66%)",
         grayishBlue: "hsl(229, 8%, 60%)",
         veryDarkBlue: "hsl(229, 31%, 21%)",
+        lightRed: "#FF6363",
+        veryLightYellowGreen: {
+          100: "#E2E2D5",
+          200: "#888883",
+        },
       },
       fontFamily: {
         sans: ["Rubik", "sans-serif"],
