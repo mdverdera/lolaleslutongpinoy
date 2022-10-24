@@ -63,7 +63,6 @@ const Recipes = ({
               return (
                 <div key={recipe.id}>
                   {/* cards go here */}
-
                   <RecipeBox recipe={recipe} />
                 </div>
               );
