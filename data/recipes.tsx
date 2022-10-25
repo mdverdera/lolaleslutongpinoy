@@ -23,6 +23,18 @@ const recipes = [
     youtubeLink: "https://youtu.be/Y_ZgkEsYOpU",
     youtubeId: "Y_ZgkEsYOpU",
   },
+  {
+    id: "e875dd17-b3a0-48c8-8f28-bf48644f4d47",
+    title: "Bicol Express",
+    description:
+      "Bicol express is a Filipino food which is very easy to prepare and yet it is very popular in the Philippines. It is a spicy food which will make you feel wanted to eat more.",
+    category: "Pork",
+    date: "October 25, 2022",
+    duration: "30 mins",
+    imagePath: "/img/recipe/bicol-express.jpg",
+    youtubeLink: "https://youtu.be/kLRAa2x_OZA",
+    youtubeId: "kLRAa2x_OZA",
+  },
 ];
 
 export default recipes;
