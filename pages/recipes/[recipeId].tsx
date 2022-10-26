@@ -68,8 +68,33 @@ const RecipeDetail = ({
         </div>
       </section>
 
+      {/* Join TikTok Section */}
+      <section id="joinTikTok" className="relative px-6 lg:px-0">
+        <div className="relative -top-24 max-w-lg mx-auto p-10 px-6 space-y-6 text-center rounded-lg bg-gray-200 lg:max-w-4xl lg:px-16">
+          <h5 className="text-2xl font-bold">Earn on TikTok today</h5>
+          <p className="text-sm">
+            {`Love to cook? Follow us on TikTok for more video recipes. Join
+            TikTok using my invite code and we'll both earn.`}
+          </p>
+
+          {/* TikTok Button Container */}
+          <Link href="https://vt.tiktok.com/ZSRtr9ecP/" passHref>
+            <div className="py-2 px-6 rounded-full inline-flex items-center bg-grayishBlue cursor-pointer hover:scale-95">
+              <picture>
+                <img
+                  src="/img/icon-tiktok.svg"
+                  alt="tiktok"
+                  className="h-6 rounded-full mr-2"
+                />
+              </picture>
+              <span> Join TikTok</span>
+            </div>
+          </Link>
+        </div>
+      </section>
+
       <section id="videoRecipe">
-        <div className="max-w-lg mx-auto text-center px-2 my-20 lg:px-10 lg:max-w-4xl">
+        <div className="max-w-lg mx-auto text-center px-2  mb-20 lg:px-10 lg:max-w-4xl">
           <h3 className="mb-8 text-xl font-bold text-gray-700 lg:text-4xl">
             Subscribe to our youtube channel.
           </h3>
