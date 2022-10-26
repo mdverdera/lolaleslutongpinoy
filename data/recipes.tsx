@@ -35,6 +35,18 @@ const recipes = [
     youtubeLink: "https://youtu.be/kLRAa2x_OZA",
     youtubeId: "kLRAa2x_OZA",
   },
+  {
+    id: "f1bb18fb-19ff-46d7-bf67-b903de680285",
+    title: "Chicken Curry",
+    description:
+      "Today, we're going to show you how to cook Filipino version of Chicken Curry. Coconut milk will be used to cook this version of Chicken Curry instead of yoghurt. The ingredients will be used are easy to find in our home.",
+    category: "Chicken",
+    date: "October 26, 2022",
+    duration: "40 mins",
+    imagePath: "/img/recipe/chicken-curry.jpg",
+    youtubeLink: "https://youtu.be/lPbfe4ieWcg",
+    youtubeId: "lPbfe4ieWcg",
+  },
 ];
 
 export default recipes;
