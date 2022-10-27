@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowDownIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import YouTube, { YouTubeProps } from "react-youtube";
+import Head from "next/head";
 
 const RecipeDetail = ({
   recipe,
@@ -17,6 +18,10 @@ const RecipeDetail = ({
 
   return (
     <>
+      <Head>
+        <title>Lola Les Lutong Pinoy | {recipe.title}</title>
+        <meta name="description" content={recipe.description} />
+      </Head>
       <section id="recipeDetail" className="bg-gray-100">
         {/* Recipe Container */}
         <div className="container flex flex-col items-center max-w-lg mx-auto px-6 pt-24 pb-32 lg:flex-row lg:space-x-16 lg:max-w-4xl">

@@ -47,6 +47,18 @@ const recipes = [
     youtubeLink: "https://youtu.be/lPbfe4ieWcg",
     youtubeId: "lPbfe4ieWcg",
   },
+  {
+    id: "91746efc-6688-4949-bf08-61b0d8ca4b06",
+    title: "Lumpiang Shanghai",
+    description:
+      "Lumpiang Shanghai is a Filipino version of spring rolls. It is filled with ground pork that is mixed with vegetables such as carrots, wrapped in a lumpia wrapper and then deep fried.",
+    category: "Party",
+    date: "October 27, 2022",
+    duration: "25 mins",
+    imagePath: "/img/recipe/lumpiang-shanghai.jpg",
+    youtubeLink: "https://youtu.be/LUxJ9a4zQA8",
+    youtubeId: "LUxJ9a4zQA8",
+  },
 ];
 
 export default recipes;
