@@ -59,6 +59,18 @@ const recipes = [
     youtubeLink: "https://youtu.be/LUxJ9a4zQA8",
     youtubeId: "LUxJ9a4zQA8",
   },
+  {
+    id: "cb964c93-f911-4a02-869e-967b2550ec87",
+    title: "Chicken Adobo",
+    description:
+      "Chicken Adobo is a Filipino dish of chicken stewed in vinegar, garlic, and soy sauce. Adobo is a method in cooking, which is originated here in the Philippines. It is also considered as unofficial national dish of the Philippines.",
+    category: "Chicken",
+    date: "October 28, 2022",
+    duration: "25 mins",
+    imagePath: "/img/recipe/chicken-adobo.jpg",
+    youtubeLink: "https://youtu.be/j6bs3C_n7PU",
+    youtubeId: "j6bs3C_n7PU",
+  },
 ];
 
 export default recipes;
