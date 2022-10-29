@@ -71,6 +71,18 @@ const recipes = [
     youtubeLink: "https://youtu.be/j6bs3C_n7PU",
     youtubeId: "j6bs3C_n7PU",
   },
+  {
+    id: "3b81322a-59c5-4308-a683-230d71a50958",
+    title: "Ginisang Monggo",
+    description:
+      "Ginisang Monggo is a Filipino mung bean soup that is flavorful, delicious and tasty. It is made with mung beans, garlic, tomatoes, onions, various vegetables, and patis. It is cooked with pork, tinapa, or other seafood and meat. It is also commonly garnished with chicharon on top.",
+    category: "Pork",
+    date: "October 29, 2022",
+    duration: "25 mins",
+    imagePath: "/img/recipe/ginisang-monggo.jpg",
+    youtubeLink: "https://youtu.be/qHDVPKOWo-M",
+    youtubeId: "qHDVPKOWo-M",
+  },
 ];
 
 export default recipes;
