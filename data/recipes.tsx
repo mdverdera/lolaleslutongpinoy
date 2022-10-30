@@ -83,6 +83,18 @@ const recipes = [
     youtubeLink: "https://youtu.be/qHDVPKOWo-M",
     youtubeId: "qHDVPKOWo-M",
   },
+  {
+    id: "7140f315-abf7-4f6d-87ab-a96354c7736d",
+    title: "Ginataang Bilo-Bilo",
+    description:
+      "Ginataang Bilo-Bilo our favorite Filipino snack. Made with glutinous rice balls, saging na saba, sweet potatoes and sago that is cooked in sweet coconut milk.",
+    category: "Meryenda",
+    date: "October 30, 2022",
+    duration: "25 mins",
+    imagePath: "/img/recipe/ginataang-bilo-bilo.jpg",
+    youtubeLink: "https://youtu.be/wprpTT_i9-I",
+    youtubeId: "wprpTT_i9-I",
+  },
 ];
 
 export default recipes;
