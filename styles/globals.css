@@ -69,3 +69,12 @@
 .btn-hover {
   @apply hover:bg-lightRed hover:text-white transition ease-out duration-500;
 }
+
+/* Recipe Image */
+.item {
+  @apply relative overflow-hidden;
+}
+
+.item-gradient {
+  @apply absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70;
+}

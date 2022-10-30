@@ -24,9 +24,9 @@ const Footer = () => {
             <Link href="/recipes" scroll={false}>
               <a className="uppercase hover:text-softRed">Recipes</a>
             </Link>
-            <Link href="/contact" scroll={false}>
+            {/* <Link href="/contact" scroll={false}>
               <a className="uppercase hover:text-softRed">Contact</a>
-            </Link>
+            </Link> */}
           </div>
 
           {/* Social Container */}

@@ -40,7 +40,7 @@ const Home: NextPage = () => {
 
             {/* Buttons Container */}
             <div className="flex items-center justify-center w-full space-x-4 lg:justify-start">
-              <Link href="/welcome">
+              <Link href="/recipes/#latestRecipe">
                 <a className="p-4 text-sm font-semibold text-veryDarkBlue bg-purple-100 rounded shadow-md border-2 border-purple-100 md:text-base hover:bg-white hover:text-grayishBlue">
                   Start here
                 </a>

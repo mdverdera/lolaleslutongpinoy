@@ -104,10 +104,7 @@ const RecipeDetail = ({
             Subscribe to our youtube channel.
           </h3>
           <p className="max-w-3xl mx-auto leading-9 text-center text-gray-700 mb-24 text-xl">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
-            et iusto dolorum. Earum omnis consectetur ipsa, ratione maiores
-            dolores in voluptatum explicabo mollitia perspiciatis perferendis,
-            nesciunt, aut vel necessitatibus cum.
+            {`Please watch the video below for step-by-step procedure on How to cook ${recipe.title}. You can also visit and subscribe to our youtube channel for updates and new video recipes like this.`}
           </p>
 
           <YouTube videoId={recipe.youtubeId} opts={opts} />

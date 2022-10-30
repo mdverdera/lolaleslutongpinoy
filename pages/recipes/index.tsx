@@ -28,8 +28,8 @@ const Recipes = ({
             Recipes
           </h2>
           <p className="mb-6 text-lg tracking-widest text-center text-gray-600">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
-            laboriosam aperiam error assumenda modi totam aut maxime.
+            This blog is for everyone who enjoys cooking Filipino Food and for
+            everyone who loves to eat Filipino Food.
           </p>
         </div>
       </section>
@@ -37,14 +37,75 @@ const Recipes = ({
         {/* Container */}
         <div className="max-w-lg mx-auto p-6 lg:max-w-4xl">
           {/* Search */}
-          <div className="relative flex flex-row w-full p-10 -mt-20 -space-x-6 bg-purple-400 rounded-lg">
+          <div className="relative flex flex-col justify-center items-center w-full space-y-3 py-5 -mt-20 -space-x-6 bg-purple-400 rounded-lg">
             {/* Input and Search Icon */}
-            <input
+            {/* <input
               className="mx-auto border-none w-full placeholder:font-thin placeholder-yellow-500 pr-5 focus:outline-none"
               placeholder="Search"
-            />
+            /> <MagnifyingGlassIcon className="w-6 h-6 text-gray-400" />*/}
+            <h1 className="uppercase text-lg font-bold text-white">
+              Follow us
+            </h1>
+            {/* Social Container */}
+            <div className="flex space-x-4 sm:space-x-8">
+              <Link
+                href="https://www.youtube.com/channel/UCqkfjJDkUYuayjqku79NJRQ"
+                passHref
+              >
+                <picture>
+                  <img
+                    src="/img/icon-youtube.svg"
+                    alt="youtube"
+                    className="h-12 p-2 rounded-full cursor-pointer ficon"
+                  />
+                </picture>
+              </Link>
 
-            <MagnifyingGlassIcon className="w-6 h-6 text-gray-400" />
+              <Link href="https://www.facebook.com/LolaLesLutongPinoy" passHref>
+                <picture>
+                  <img
+                    src="/img/icon-facebook.svg"
+                    alt="facebook"
+                    className="h-12 p-2 rounded-full cursor-pointer ficon"
+                  />
+                </picture>
+              </Link>
+
+              <Link
+                href="https://www.instagram.com/lolaleslutongpinoy/"
+                passHref
+              >
+                <picture>
+                  <img
+                    src="/img/icon-instagram.svg"
+                    alt="instagram"
+                    className="h-12 p-2 rounded-full cursor-pointer ficon"
+                  />
+                </picture>
+              </Link>
+
+              <Link
+                href="https://www.pinterest.ph/lolaleslutongpinoy/"
+                passHref
+              >
+                <picture>
+                  <img
+                    src="/img/icon-pinterest.svg"
+                    alt="pinterest"
+                    className="h-12 p-2 rounded-full cursor-pointer ficon"
+                  />
+                </picture>
+              </Link>
+              <Link href="https://www.tiktok.com/@lolaleslutongpinoy/" passHref>
+                <picture>
+                  <img
+                    src="/img/icon-tiktok.svg"
+                    alt="tiktok"
+                    className="h-12 p-2 rounded-full cursor-pointer ficon"
+                  />
+                </picture>
+              </Link>
+            </div>
           </div>
         </div>
       </section>
@@ -54,8 +115,7 @@ const Recipes = ({
             Latest Recipe
           </h2>
           <p className="max-w-lg mx-auto text-center text-gray-400 lg:max-w-4xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-            natus necessitatibus numquam cupiditate expedita voluptatum a.
+            Try this latest recipe from our blog. Enjoy!
           </p>
           <div>
             <div className="mt-8 grid md:grid-cols-3 gap-10">
