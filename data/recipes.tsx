@@ -95,6 +95,18 @@ const recipes = [
     youtubeLink: "https://youtu.be/wprpTT_i9-I",
     youtubeId: "wprpTT_i9-I",
   },
+  {
+    id: "9bcd254e-ade0-4b58-b8a3-860c7753d372",
+    title: "Pancit Canton",
+    description:
+      "Pancit Canton is often served on birthdays and special occasions to signify long life. It is prepared with a combination of various veggies that makes this dish healthy and delicious.",
+    category: "Meryenda",
+    date: "October 31, 2022",
+    duration: "30 mins",
+    imagePath: "/img/recipe/pancit-canton.jpg",
+    youtubeLink: "https://youtu.be/5n_GjFbJq7U",
+    youtubeId: "5n_GjFbJq7U",
+  },
 ];
 
 export default recipes;
