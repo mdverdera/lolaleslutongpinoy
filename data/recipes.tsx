@@ -107,6 +107,18 @@ const recipes = [
     youtubeLink: "https://youtu.be/5n_GjFbJq7U",
     youtubeId: "5n_GjFbJq7U",
   },
+  {
+    id: "5c151c74-235a-4847-80d8-1658722f5ae6",
+    title: "Lechon Belly",
+    description:
+      "Lechon belly is tasty and delicious Filipino dish. It is crispy on the outside and soft and juicy in the inside. For it to become juicy and tasty inside, it should be boil with star anise, onion, garlic, salt, ground black pepper and bay leaf.",
+    category: "Pork",
+    date: "November 1, 2022",
+    duration: "3 hrs",
+    imagePath: "/img/recipe/lechon-belly.jpg",
+    youtubeLink: "https://youtu.be/u7GpHgQ5peM",
+    youtubeId: "u7GpHgQ5peM",
+  },
 ];
 
 export default recipes;
