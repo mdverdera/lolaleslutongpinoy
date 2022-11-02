@@ -119,6 +119,18 @@ const recipes = [
     youtubeLink: "https://youtu.be/u7GpHgQ5peM",
     youtubeId: "u7GpHgQ5peM",
   },
+  {
+    id: "3c9c8f2a-7d72-4d41-aaa3-59d5222db2b6",
+    title: "Lechon Paksiw",
+    description:
+      "Lechon Paksiw is a Filipino pork dish that is cooked with vinegar. Lechon belly will be cut into serving sizes and will be boiled in a special sauce with other condiments like salt, optionally you can add garlic and ground black pepper.",
+    category: "Pork",
+    date: "November 2, 2022",
+    duration: "20 mins",
+    imagePath: "/img/recipe/lechon-paksiw.jpg",
+    youtubeLink: "https://youtu.be/uhGoeEW74ok",
+    youtubeId: "uhGoeEW74ok",
+  },
 ];
 
 export default recipes;
