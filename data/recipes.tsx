@@ -131,6 +131,18 @@ const recipes = [
     youtubeLink: "https://youtu.be/uhGoeEW74ok",
     youtubeId: "uhGoeEW74ok",
   },
+  {
+    id: "9fdca563-96d8-4913-86b0-e9feffba6fab",
+    title: "Pinakbet",
+    description:
+      "Pinakbet or Pakbet is a delicious and popular Filipino vegetable dish. As this dish is composed of a variety of vegetables, it is full of different vitamins and minerals.",
+    category: "Vegetable",
+    date: "November 3, 2022",
+    duration: "30 mins",
+    imagePath: "/img/recipe/pinakbet.jpg",
+    youtubeLink: "https://youtu.be/307Gyi73mOI",
+    youtubeId: "307Gyi73mOI",
+  },
 ];
 
 export default recipes;
