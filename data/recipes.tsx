@@ -155,6 +155,18 @@ const recipes = [
     youtubeLink: "https://youtu.be/3-m0jVkTFTI",
     youtubeId: "3-m0jVkTFTI",
   },
+  {
+    id: "3fe9cd58-905e-4a94-9436-b558603e5af1",
+    title: "Pastil",
+    description:
+      "Filipino packed rice dish made with steamed rice wrapped in fragrant banana leaves with dry shredded chicken. In a pot, chicken breast will be boiled with water, garlic, onion, soy sauce, oyster sauce and ground black pepper.",
+    category: "Chicken",
+    date: "November 5, 2022",
+    duration: "30 mins",
+    imagePath: "/img/recipe/pastil.jpg",
+    youtubeLink: "https://youtu.be/mhowSoanDBE",
+    youtubeId: "mhowSoanDBE",
+  },
 ];
 
 export default recipes;
