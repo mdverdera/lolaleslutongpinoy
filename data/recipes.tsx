@@ -143,6 +143,18 @@ const recipes = [
     youtubeLink: "https://youtu.be/307Gyi73mOI",
     youtubeId: "307Gyi73mOI",
   },
+  {
+    id: "d24f36af-0a68-45ea-a896-595721997585",
+    title: "Filipino Breakfast",
+    description:
+      "Filipinos used to have a hefty and satisfying breakfast. It is usually loaded with rice, meats, dried fish, and eggs. It is essential for them to have this kind of breakfast for their body to function at its best.",
+    category: "Breakfast",
+    date: "November 4, 2022",
+    duration: "30 mins",
+    imagePath: "/img/recipe/filipino-breakfast.jpg",
+    youtubeLink: "https://youtu.be/3-m0jVkTFTI",
+    youtubeId: "3-m0jVkTFTI",
+  },
 ];
 
 export default recipes;

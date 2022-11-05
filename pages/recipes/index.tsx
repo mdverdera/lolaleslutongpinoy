@@ -2,6 +2,7 @@ import RecipeBox from "@components/recipe/RecipeBox";
 import recipes from "@data/recipes";
 import { MagnifyingGlassIcon, ClockIcon } from "@heroicons/react/24/solid";
 import { GetStaticProps, InferGetStaticPropsType } from "next";
+import Head from "next/head";
 import Link from "next/link";
 
 type RecipeModel = {
@@ -21,6 +22,13 @@ const Recipes = ({
 }: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
     <>
+      <Head>
+        <title>Lola Les Lutong Pinoy | Recipes</title>
+        <meta
+          name="description"
+          content="Try this latest recipe from Lola Les Lutong Pinoy blog."
+        />
+      </Head>
       <section id="recipe" className="bg-purple-100">
         {/* Main Container */}
         <div className="max-w-lg mx-auto py-24 lg:max-w-4xl">
@@ -31,6 +39,15 @@ const Recipes = ({
             This blog is for everyone who enjoys cooking Filipino Food and for
             everyone who loves to eat Filipino Food.
           </p>
+          {/* Display Ad */}
+          <ins
+            className="adsbygoogle block"
+            data-ad-client="ca-pub-4037215281786151"
+            data-ad-slot="5161779101"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
         </div>
       </section>
       <section id="searchRecipe" className="relative bg-gray-100">

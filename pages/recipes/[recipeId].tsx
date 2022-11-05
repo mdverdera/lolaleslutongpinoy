@@ -58,6 +58,17 @@ const RecipeDetail = ({
               <p className="text-md lg:text-lg">{recipe.description}</p>
 
               <p className="text-md lg:text-lg"></p>
+
+              <ins
+                className="adsbygoogle block text-center"
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-4037215281786151"
+                data-ad-slot="5992533090"
+              ></ins>
+              <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+              </script>
             </div>
 
             {/* Link */}
