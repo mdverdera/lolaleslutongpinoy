@@ -179,6 +179,18 @@ const recipes = [
     youtubeLink: "https://youtu.be/EDoXT9omWv4",
     youtubeId: "EDoXT9omWv4",
   },
+  {
+    id: "694e0ca8-d196-48ec-99a5-a816cc3cca2a",
+    title: "Ube Halaya",
+    description:
+      "Ube halaya or Halayang ube is a famous Filipino dessert made from boiled and mashed purple yam with other few ingredients like condensed milk. Ube halaya dessert can be incorporated in other desserts like biko, halo-halo, leche flan, and many more. It can be also used as the main base and flavor of pastries and ice cream.",
+    category: "Dessert",
+    date: "November 7, 2022",
+    duration: "30 mins",
+    imagePath: "/img/recipe/ube-halaya.jpg",
+    youtubeLink: "https://youtu.be/Nvz2uT7EIRg",
+    youtubeId: "Nvz2uT7EIRg",
+  },
 ];
 
 export default recipes;
