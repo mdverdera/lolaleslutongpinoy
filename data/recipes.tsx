@@ -167,6 +167,18 @@ const recipes = [
     youtubeLink: "https://youtu.be/mhowSoanDBE",
     youtubeId: "mhowSoanDBE",
   },
+  {
+    id: "5f568c04-6f08-4dd4-b4f9-771c338df5f3",
+    title: "Fruit Cocktail Gelatin",
+    description:
+      "Fruit cocktail gelatin is an easy to prepare dessert that you can make for birthday parties, anniversaries, reunions and for holidays. The kids will love it because it is colorful and delicious.",
+    category: "Dessert",
+    date: "November 6, 2022",
+    duration: "20 mins",
+    imagePath: "/img/recipe/fruit-cocktail-gelatin.jpg",
+    youtubeLink: "https://youtu.be/EDoXT9omWv4",
+    youtubeId: "EDoXT9omWv4",
+  },
 ];
 
 export default recipes;
