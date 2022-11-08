@@ -191,6 +191,18 @@ const recipes = [
     youtubeLink: "https://youtu.be/Nvz2uT7EIRg",
     youtubeId: "Nvz2uT7EIRg",
   },
+  {
+    id: "42a38afd-3b5a-4e6f-aae3-b4290b3c0086",
+    title: "Chicken Macaroni Soup",
+    description:
+      "Sopas or Chicken Macaroni Soup is a Filipino food that is good for breakfast or in the afternoon as a snack. Most Filipino enjoy this soup dish during cold weather because it can easily warm the body from within.",
+    category: "Meryenda",
+    date: "November 8, 2022",
+    duration: "30 mins",
+    imagePath: "/img/recipe/chicken-macaroni-soup.jpg",
+    youtubeLink: "https://youtu.be/9W3TJRU7XWY",
+    youtubeId: "9W3TJRU7XWY",
+  },
 ];
 
 export default recipes;
