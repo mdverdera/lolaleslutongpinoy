@@ -61,7 +61,7 @@ const Recipes = ({
         {/* Container */}
         <div className="max-w-lg mx-auto p-6 lg:max-w-4xl">
           {/* Search */}
-          <div className="relative flex flex-col justify-center items-center w-full space-y-3 py-5 -mt-20 -space-x-6 bg-purple-400 rounded-lg">
+          <div className="relative flex flex-col justify-center items-center w-full space-y-3 py-5 -mt-20 bg-purple-400 rounded-lg">
             {/* Input and Search Icon */}
             {/* <input
               className="mx-auto border-none w-full placeholder:font-thin placeholder-yellow-500 pr-5 focus:outline-none"
@@ -71,7 +71,7 @@ const Recipes = ({
               Follow us
             </h1>
             {/* Social Container */}
-            <div className="flex space-x-4 sm:space-x-8">
+            <div className="flex flex-row mx-auto items-center justify-center  space-x-2 md:space-x-8">
               <Link
                 href="https://www.youtube.com/channel/UCqkfjJDkUYuayjqku79NJRQ"
                 passHref
