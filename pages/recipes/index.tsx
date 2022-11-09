@@ -4,6 +4,7 @@ import { MagnifyingGlassIcon, ClockIcon } from "@heroicons/react/24/solid";
 import { GetStaticProps, InferGetStaticPropsType } from "next";
 import Head from "next/head";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 type RecipeModel = {
   id: string;
@@ -20,6 +21,12 @@ type RecipeModel = {
 const Recipes = ({
   recipesData,
 }: InferGetStaticPropsType<typeof getStaticProps>) => {
+  const [postNum, setPostNum] = useState(6); // Default number of posts dislplayed
+
+  function loadMore() {
+    setPostNum((prevPostNum) => prevPostNum + 6); // 6 is the number of posts you want to load per click
+  }
+
   return (
     <>
       <Head>
@@ -137,7 +144,7 @@ const Recipes = ({
           <div>
             <div className="mt-8 grid md:grid-cols-3 gap-10">
               {/* Recipe Box */}
-              {recipesData.reverse().map((recipe: RecipeModel) => {
+              {recipesData.slice(0, postNum).map((recipe: RecipeModel) => {
                 return (
                   <div className="card" key={recipe.id}>
                     {/* cards go here */}
@@ -146,6 +153,14 @@ const Recipes = ({
                 );
               })}
             </div>
+          </div>
+          <div className="flex justify-center pt-20">
+            <button
+              onClick={loadMore}
+              className="btn bg-veryLightYellowGreen-100 text-veryLightYellowGreen-200 hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 transition ease-out duration-300"
+            >
+              Load More
+            </button>
           </div>
         </div>
       </section>
@@ -156,7 +171,7 @@ const Recipes = ({
 export default Recipes;
 
 export const getStaticProps: GetStaticProps = async (context) => {
-  const recipesData = recipes;
+  const recipesData = recipes.reverse();
 
   return {
     props: {
