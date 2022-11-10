@@ -203,6 +203,18 @@ const recipes = [
     youtubeLink: "https://youtu.be/9W3TJRU7XWY",
     youtubeId: "9W3TJRU7XWY",
   },
+  {
+    id: "3397dab0-4571-4cf7-acfe-6f3855efa6cc",
+    title: "Lechon Manok",
+    description:
+      "Lechon Manok is one of Filipino favorite food in any special occasion or simple gatherings. The recipe and preparation for Lechon Manok is very simple. The whole chicken will be marinated and roasted for 1 to 2 hours.",
+    category: "Chicken",
+    date: "November 9, 2022",
+    duration: "2 hrs",
+    imagePath: "/img/recipe/lechon-manok.jpg",
+    youtubeLink: "https://youtu.be/r7SFNouTQcE",
+    youtubeId: "r7SFNouTQcE",
+  },
 ];
 
 export default recipes;
