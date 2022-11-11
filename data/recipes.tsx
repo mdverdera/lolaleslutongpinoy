@@ -215,6 +215,18 @@ const recipes = [
     youtubeLink: "https://youtu.be/r7SFNouTQcE",
     youtubeId: "r7SFNouTQcE",
   },
+  {
+    id: "f33041d3-aca5-4b26-a1f0-8015bc8437b1",
+    title: "Sinigang na Manok",
+    description:
+      "Sinigang na Manok is a sour soup dish that is authentic in the Philippines. Cooking method is also similar to sinampaluklang manok with a slight difference in the ingredients. Sinigang can be chicken, pork, fish, beef or shrimp with various vegetables.",
+    category: "Chicken",
+    date: "November 10, 2022",
+    duration: "25 mins",
+    imagePath: "/img/recipe/sinigang-na-manok.jpg",
+    youtubeLink: "https://youtu.be/g69uwDj7iuA",
+    youtubeId: "g69uwDj7iuA",
+  },
 ];
 
 export default recipes;
