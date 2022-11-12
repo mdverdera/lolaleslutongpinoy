@@ -41,13 +41,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
 
       <Layout>
-        <Script
-          id="Adsense-id"
-          data-ad-client="ca-pub-4037215281786151"
-          async="true"
-          strategy="beforeInteractive"
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-        />
         <Component {...pageProps} />
       </Layout>
     </>
