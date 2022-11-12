@@ -115,7 +115,16 @@ const RecipeDetail = ({
             Subscribe to our youtube channel.
           </h3>
           <p className="max-w-3xl mx-auto leading-9 text-center text-gray-700 mb-24 text-xl">
-            {`Please watch the video below for step-by-step procedure on How to cook ${recipe.title}. You can also visit and subscribe to our youtube channel for updates and new video recipes like this.`}
+            {`Please watch the video below for step-by-step procedure on How to
+            cook ${recipe.title}.`}{" "}
+            You can also visit and subscribe to our
+            <Link href="https://www.youtube.com/channel/UCqkfjJDkUYuayjqku79NJRQ">
+              <a className="text-veryDarkBlue font-semibold">
+                {" "}
+                youtube channel{" "}
+              </a>
+            </Link>
+            for updates and new video recipes like this.
           </p>
 
           <YouTube videoId={recipe.youtubeId} opts={opts} />

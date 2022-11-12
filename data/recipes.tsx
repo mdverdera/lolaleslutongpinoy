@@ -227,6 +227,18 @@ const recipes = [
     youtubeLink: "https://youtu.be/g69uwDj7iuA",
     youtubeId: "g69uwDj7iuA",
   },
+  {
+    id: "02219d46-db44-4749-83ae-c6a07d3b8b1d",
+    title: "Cassava Cake",
+    description:
+      "Cassava cake is a traditional Filipino food that is made from grated cassava with the mixture of egg, evaporated milk, condensed milk, cheese and coconut milk. It can be made for business, give-away, gatherings and special occasions. It is also commonly eaten for breakfast and merienda.",
+    category: "Dessert",
+    date: "November 11, 2022",
+    duration: "1 hr",
+    imagePath: "/img/recipe/cassava-cake.jpg",
+    youtubeLink: "https://youtu.be/2xJ861cSYnQ",
+    youtubeId: "2xJ861cSYnQ",
+  },
 ];
 
 export default recipes;
