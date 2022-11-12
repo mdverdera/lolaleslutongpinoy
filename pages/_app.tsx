@@ -2,6 +2,7 @@ import Layout from "@components/layout/Layout";
 import "@styles/globals.css";
 import type { AppProps } from "next/app";
 import Head from "next/head";
+import Script from "next/script";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -37,14 +38,16 @@ function MyApp({ Component, pageProps }: AppProps) {
           name="p:domain_verify"
           content="b4023b5db6a28c1c58bc08d4532244a7"
         />
-
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4037215281786151"
-          crossOrigin="anonymous"
-        ></script>
       </Head>
+
       <Layout>
+        <Script
+          id="Adsense-id"
+          data-ad-client="ca-pub-4037215281786151"
+          async="true"
+          strategy="beforeInteractive"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        />
         <Component {...pageProps} />
       </Layout>
     </>
