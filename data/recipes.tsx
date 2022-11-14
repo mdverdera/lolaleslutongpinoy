@@ -239,6 +239,18 @@ const recipes = [
     youtubeLink: "https://youtu.be/2xJ861cSYnQ",
     youtubeId: "2xJ861cSYnQ",
   },
+  {
+    id: "deaacdbb-d6b3-4e9a-b43f-e2dbe4421813",
+    title: "Pork Pochero",
+    description:
+      "Pork Pochero is a Filipino dish that is perfect for cold weather. This Filipino dish is very healthy and delicious since it consists of various vegetables. Aside from pork pochero, it also have other variations; beef pochero and chicken pochero.",
+    category: "Pork",
+    date: "November 12, 2022",
+    duration: "30 mins",
+    imagePath: "/img/recipe/pork-pochero.jpg",
+    youtubeLink: "https://youtu.be/JtyypzJlqME",
+    youtubeId: "JtyypzJlqME",
+  },
 ];
 
 export default recipes;
