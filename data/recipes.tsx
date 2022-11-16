@@ -251,6 +251,18 @@ const recipes = [
     youtubeLink: "https://youtu.be/JtyypzJlqME",
     youtubeId: "JtyypzJlqME",
   },
+  {
+    id: "5489d0d2-fad4-46f6-9191-4d83bdaceeb9",
+    title: "Ube Suman Kamoteng Kahoy with Bukayo Filling",
+    description:
+      "Cassava suman is a Filipino kakanin that is made of grated cassava, sugar and malagkit powder. It will be wrapped in a softened banana leaf then steamed for an hour or until the texture becomes firm. In this recipe, we added Bukayo as a filling to our suman to make it more delicious!",
+    category: "Kakanin",
+    date: "November 13, 2022",
+    duration: "2 hrs",
+    imagePath: "/img/recipe/ube-suman-bukayo.jpg",
+    youtubeLink: "https://youtu.be/IZM2LZOB_l8",
+    youtubeId: "IZM2LZOB_l8",
+  },
 ];
 
 export default recipes;
