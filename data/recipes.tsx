@@ -263,6 +263,18 @@ const recipes = [
     youtubeLink: "https://youtu.be/IZM2LZOB_l8",
     youtubeId: "IZM2LZOB_l8",
   },
+  {
+    id: "efb7ac30-0f40-44f2-9bfa-c83d5638d78b",
+    title: "Pork Lomo Barbecue",
+    description:
+      "Pork Lomo Barbecue is made from thinly sliced lomo pork. These sliced pork are marinated in the mixture of soy sauce, oyster sauce, ketchup and other seasonings that will give a great taste to the pork. The lomo or the pork tenderloin is the most tender meat cut on the pork.",
+    category: "Pork",
+    date: "November 14, 2022",
+    duration: "30 mins",
+    imagePath: "/img/recipe/pork-lomo-bbq.jpg",
+    youtubeLink: "https://youtu.be/F7UecKqwSsI",
+    youtubeId: "F7UecKqwSsI",
+  },
 ];
 
 export default recipes;
