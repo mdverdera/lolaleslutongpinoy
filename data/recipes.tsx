@@ -275,6 +275,18 @@ const recipes = [
     youtubeLink: "https://youtu.be/F7UecKqwSsI",
     youtubeId: "F7UecKqwSsI",
   },
+  {
+    id: "6da39953-8ba8-4a35-9826-8b59655a9cdb",
+    title: "Turbo Crispy Pata",
+    description:
+      "Crispy Pata is a famous pork dish that is usually served in parties or special occasions in the Philippines. It is usually eaten with alcohol drinks as a pulutan, but we can also eat this dish with rice and soy sauce, vinegar with siling labuyo sauce.",
+    category: "Pork",
+    date: "November 15, 2022",
+    duration: "3 hrs",
+    imagePath: "/img/recipe/turbo-crispy-pata.jpg",
+    youtubeLink: "https://youtu.be/h_CCk58uGoA",
+    youtubeId: "h_CCk58uGoA",
+  },
 ];
 
 export default recipes;
