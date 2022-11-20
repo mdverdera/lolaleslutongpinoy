@@ -287,6 +287,18 @@ const recipes = [
     youtubeLink: "https://youtu.be/h_CCk58uGoA",
     youtubeId: "h_CCk58uGoA",
   },
+  {
+    id: "9a50f998-e770-4400-92fd-4677701e5944",
+    title: "Buko Pandan",
+    description:
+      "Buko Pandan is a dessert that can be served in all occasions or even in simple gatherings. The kids will surely love this dessert and even the kids at heart. This dessert is very simple to prepare, you just need to create a gulaman and mixed it with milk, coconut meat and cream. Optionally, you can add pearls and sugar.",
+    category: "Dessert",
+    date: "November 65, 2022",
+    duration: "30 mins",
+    imagePath: "/img/recipe/buko-pandan.jpg",
+    youtubeLink: "https://youtu.be/wW9ATEo9RCg",
+    youtubeId: "wW9ATEo9RCg",
+  },
 ];
 
 export default recipes;
