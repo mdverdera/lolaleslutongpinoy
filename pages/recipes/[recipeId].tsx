@@ -29,7 +29,7 @@ const RecipeDetail = ({
           <div className="lg:w-1/2 relative group">
             <Image
               src={recipe.imagePath}
-              alt="Filipino style spaghetti"
+              alt={recipe.title}
               className="mb-10"
               width={400}
               height={260}
